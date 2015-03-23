@@ -13,12 +13,11 @@
 		67C603091717C6A500629C0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67C603071717C6A500629C0E /* InfoPlist.strings */; };
 		67C6030B1717C6A500629C0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6030A1717C6A500629C0E /* main.m */; };
 		67C6030F1717C6A500629C0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C6030E1717C6A500629C0E /* AppDelegate.m */; };
-		67C603111717C6A500629C0E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 67C603101717C6A500629C0E /* Default.png */; };
-		67C603131717C6A500629C0E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67C603121717C6A500629C0E /* Default@2x.png */; };
-		67C603151717C6A500629C0E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67C603141717C6A500629C0E /* Default-568h@2x.png */; };
 		67C603181717C6A500629C0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C603171717C6A500629C0E /* ViewController.m */; };
-		67C603251717DE5A00629C0E /* leftside_shadow_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67C603241717DE5A00629C0E /* leftside_shadow_bg@2x.png */; };
-		67F1E622171D11C800A8CE9F /* MLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F1E61F171D11C800A8CE9F /* MLNavigationController.m */; };
+		EE780BD31AC00BC8009868FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE780BD21AC00BC8009868FB /* Images.xcassets */; };
+		EE7DE1511AC010270011004B /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7DE1501AC010270011004B /* Launch.storyboard */; };
+		EE7DE1531AC01A050011004B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7DE1521AC01A050011004B /* Main.storyboard */; };
+		EE7DE1561AC01E810011004B /* MLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7DE1551AC01E810011004B /* MLNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,14 +31,13 @@
 		67C6030C1717C6A500629C0E /* MultiLayerNavigation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiLayerNavigation-Prefix.pch"; sourceTree = "<group>"; };
 		67C6030D1717C6A500629C0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		67C6030E1717C6A500629C0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		67C603101717C6A500629C0E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		67C603121717C6A500629C0E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		67C603141717C6A500629C0E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		67C603161717C6A500629C0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		67C603171717C6A500629C0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		67C603241717DE5A00629C0E /* leftside_shadow_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftside_shadow_bg@2x.png"; sourceTree = "<group>"; };
-		67F1E61E171D11C800A8CE9F /* MLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLNavigationController.h; sourceTree = "<group>"; };
-		67F1E61F171D11C800A8CE9F /* MLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLNavigationController.m; sourceTree = "<group>"; };
+		EE780BD21AC00BC8009868FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE7DE1501AC010270011004B /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		EE7DE1521AC01A050011004B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EE7DE1541AC01E810011004B /* MLNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLNavigationController.h; sourceTree = "<group>"; };
+		EE7DE1551AC01E810011004B /* MLNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +89,10 @@
 				67C6030E1717C6A500629C0E /* AppDelegate.m */,
 				67C603161717C6A500629C0E /* ViewController.h */,
 				67C603171717C6A500629C0E /* ViewController.m */,
+				EE780BD21AC00BC8009868FB /* Images.xcassets */,
 				67C603051717C6A500629C0E /* Supporting Files */,
+				EE7DE1501AC010270011004B /* Launch.storyboard */,
+				EE7DE1521AC01A050011004B /* Main.storyboard */,
 			);
 			path = MultiLayerNavigation;
 			sourceTree = "<group>";
@@ -99,14 +100,10 @@
 		67C603051717C6A500629C0E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				67C603241717DE5A00629C0E /* leftside_shadow_bg@2x.png */,
 				67C603061717C6A500629C0E /* MultiLayerNavigation-Info.plist */,
 				67C603071717C6A500629C0E /* InfoPlist.strings */,
 				67C6030A1717C6A500629C0E /* main.m */,
 				67C6030C1717C6A500629C0E /* MultiLayerNavigation-Prefix.pch */,
-				67C603101717C6A500629C0E /* Default.png */,
-				67C603121717C6A500629C0E /* Default@2x.png */,
-				67C603141717C6A500629C0E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -114,8 +111,8 @@
 		67F1E61D171D11C800A8CE9F /* Src */ = {
 			isa = PBXGroup;
 			children = (
-				67F1E61E171D11C800A8CE9F /* MLNavigationController.h */,
-				67F1E61F171D11C800A8CE9F /* MLNavigationController.m */,
+				EE7DE1541AC01E810011004B /* MLNavigationController.h */,
+				EE7DE1551AC01E810011004B /* MLNavigationController.m */,
 			);
 			path = Src;
 			sourceTree = SOURCE_ROOT;
@@ -172,10 +169,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				67C603091717C6A500629C0E /* InfoPlist.strings in Resources */,
-				67C603111717C6A500629C0E /* Default.png in Resources */,
-				67C603131717C6A500629C0E /* Default@2x.png in Resources */,
-				67C603151717C6A500629C0E /* Default-568h@2x.png in Resources */,
-				67C603251717DE5A00629C0E /* leftside_shadow_bg@2x.png in Resources */,
+				EE780BD31AC00BC8009868FB /* Images.xcassets in Resources */,
+				EE7DE1511AC010270011004B /* Launch.storyboard in Resources */,
+				EE7DE1531AC01A050011004B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,10 +182,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE7DE1561AC01E810011004B /* MLNavigationController.m in Sources */,
 				67C6030B1717C6A500629C0E /* main.m in Sources */,
 				67C6030F1717C6A500629C0E /* AppDelegate.m in Sources */,
 				67C603181717C6A500629C0E /* ViewController.m in Sources */,
-				67F1E622171D11C800A8CE9F /* MLNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,7 +227,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -254,7 +250,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -264,12 +260,15 @@
 		67C6031F1717C6A500629C0E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yongcong Chen (QB4AN98KG2)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yongcong Chen (QB4AN98KG2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultiLayerNavigation/MultiLayerNavigation-Prefix.pch";
 				INFOPLIST_FILE = "MultiLayerNavigation/MultiLayerNavigation-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "66832B8B-3F67-46BA-B5C5-00C7D63B6274";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "66832B8B-3F67-46BA-B5C5-00C7D63B6274";
@@ -280,11 +279,14 @@
 		67C603201717C6A500629C0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yongcong Chen (QB4AN98KG2)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MultiLayerNavigation/MultiLayerNavigation-Prefix.pch";
 				INFOPLIST_FILE = "MultiLayerNavigation/MultiLayerNavigation-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "66832B8B-3F67-46BA-B5C5-00C7D63B6274";
 				WRAPPER_EXTENSION = app;
